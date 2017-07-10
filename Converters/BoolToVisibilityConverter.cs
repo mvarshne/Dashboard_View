@@ -8,6 +8,7 @@ using System.Windows.Data;
 
 namespace Citadel.Apps.Dashboard.Converters
 {
+    //this is the class for converting a bool variable to visibility
     public class BoolToVisibilityConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
